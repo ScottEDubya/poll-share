@@ -5,7 +5,7 @@ const apiRoutes = require("./api");
 router.use("/api", apiRoutes); // all data endpoints go through here
 
 router.use(function(req, res) {
-    res.sendFile(path.join(__dirname, "../client/build/index.html"));
+    res.sendFile(path.join(__dirname, "../../client/build/index.html"));
 });
 
 module.exports = router;

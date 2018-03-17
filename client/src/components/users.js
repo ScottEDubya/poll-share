@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from './button';
-import UserItem from './useritem';
+import Button from './Button';
+import UserItem from './UserItem';
 
 class Users extends React.Component {
     constructor(props) {
