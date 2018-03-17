@@ -8,5 +8,5 @@ render(
     <Provider store={UsersStore}>
         <Users />
     </Provider>,
-    document.getElementById("app")
+    document.getElementById("root")
 );

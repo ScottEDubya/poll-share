@@ -1,8 +1,8 @@
-import axios from 'axios';
+import * as AJAX from 'superagent';
 
 export default function fetchUsers() {
     return { 
         type: 'FETCH_USER',
-        payload: axios.get("https://randomuser.me/api/?results=10")
+        payload: AJAX.get("https://randomuser.me/api/?results=10")
     };
 };
